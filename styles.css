@@ -1,0 +1,212 @@
+body{
+    font-family: 'Fira Sans Extra Condensed';
+    background-image: url('brushes.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: rgb(201, 207, 212);
+
+
+}
+
+#logo{
+    width: 400px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+
+
+.menu-box{
+   
+    background-color: rgb(213, 222, 226);
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: 900;
+    position: fixed;
+    right:0;
+
+
+}
+
+.menu-title{
+    line-height: 0px;
+    padding: 0;
+    font-weight: 300;
+    text-align: right;
+    letter-spacing: 5px;
+    color: rgb(128, 128, 128);
+}
+
+
+li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+
+.pagelink{
+    text-decoration: none;
+    color: black; 
+    font-size: .9em;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.current{
+    color: rgb(0, 107, 91);
+    font-weight: 900;
+}
+
+.contactalign{
+    float: right;
+}
+
+
+
+.hide {
+    display: none;
+
+  }
+      
+.hoverdiv:hover .hide {
+    display: inline-block;
+
+  }
+
+
+
+
+
+
+h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.dr{
+    width: 200px;
+}
+  
+.container{
+    display: grid;
+
+}
+
+.item{
+    text-align: center;
+}
+
+
+
+.brushes{
+    margin: auto;
+    width: 100vw;
+}
+
+
+
+
+.text-box{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(210, 217, 221, 0.685);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+.about{
+    padding: 20px 50px 20px 50px;
+    color: rgb(29, 29, 29);
+    line-height: 180%;
+}
+
+p{
+    padding: 10px 50px 10px 50px;
+    color: rgb(29, 29, 29);
+    line-height: 180%;}
+
+.mobilebr{
+    display: none;
+}
+
+.iframebig{
+    display: block;
+}
+.iframesmall{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .text-box{
+        width: 600px;
+    }
+
+        h1{
+
+            font-size: 1em;
+            letter-spacing: 3px;
+
+        }
+        .iframebig{
+            display: none;
+        }
+        .iframesmall{
+            display: block;
+        }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .text-box{
+        width: 310px;
+
+    }
+
+    h1{
+
+        font-size: .8em;
+        letter-spacing: 2.5px;
+
+    }
+
+    .mobilebr{
+        display: inline;
+    }
+
+    .about{
+        font-size: .9em;
+        padding: 10px 20px 10px 20px;
+
+    }
+    #logo{
+        width: 250px;
+    }
+}
