@@ -13,10 +13,10 @@
 </head>
 <body>
 
-    <div class="menu-box contactalign center hoverdiv" >
+<div onclick="toggleMenu()" class="menu-box contactalign center hoverdiv" >
         <h4 class="menu-title center"> MENU</h4> 
     
-        <div class="center hide">
+        <div id="menu" class="center hide" style="display: none;">
             <ul >
                 <li><a class="pagelink" href="https://www.grandledgefamilydentistry.com">Home</a></li>
                 <li><a class="pagelink" href="https://www.grandledgefamilydentistry.com/doctors">Meet the Doctors</a></li>
@@ -45,3 +45,19 @@
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvK3UhevUDkuv42bqp8ToptsffF9wXqUJwm0Nz4JRL5NKrCA/viewform?embedded=true" width="310" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>    
         </div>
 </div>
+ <script>
+function toggleMenu() {
+    
+  if (document.getElementById("menu").style.display == "inline-block"){
+  document.getElementById("menu").style.display = "none";
+  }
+    
+  else{
+      document.getElementById("menu").style.display = "inline-block";
+  }
+}
+     
+     
+</script>
+</body>
+</html>
