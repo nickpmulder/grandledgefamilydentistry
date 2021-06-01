@@ -15,10 +15,10 @@
 
 
 
-    <div id="menu" class="menu-box contactalign center hoverdiv" style="display: inline-block;">
+    <div onclick="toggleMenu()" class="menu-box contactalign center hoverdiv" >
         <h4 class="menu-title center"> MENU</h4> 
     
-        <div class="center hide" onclick="">
+        <div id="menu" class="center hide" style="display: inline-block;">
             <ul >
                 <li><a class="pagelink current" href="https://www.grandledgefamilydentistry.com">Home</a></li>
                 <li><a class="pagelink" href="https://www.grandledgefamilydentistry.com/doctors">Meet the Doctors</a></li>
@@ -60,7 +60,7 @@
     
     
  <script>
-function myFunction() {
+function toggleMenu() {
     
   if (document.getElementById("menu").style.display == "inline-block"){
   document.getElementById("menu").style.display = "none";
