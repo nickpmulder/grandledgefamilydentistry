@@ -15,7 +15,7 @@
 
 
 
-    <div class="menu-box contactalign center hoverdiv" >
+    <div id="menu" class="menu-box contactalign center hoverdiv" style="display: inline-block;">
         <h4 class="menu-title center"> MENU</h4> 
     
         <div class="center hide" onclick="">
@@ -57,5 +57,21 @@
             <p class="text">ph. (517) 627-9081   •   fax (517) 627-8239</p>
             <p class="text">email: Glfamilydentistry@gmail.com</p></div>
     </div>
+    
+    
+ <script>
+function myFunction() {
+    
+  if (document.getElementById("menu").style.display == "inline-block"){
+  document.getElementById("menu").style.display = "none";
+  }
+    
+  else{
+      document.getElementById("menu").style.display = "inline-block";
+  }
+}
+     
+     
+</script>
 </body>
 </html>
