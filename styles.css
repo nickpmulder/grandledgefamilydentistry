@@ -35,6 +35,34 @@ body{
 
 }
 
+.item-box{
+   
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+
+
+}
+
+.header-button{
+   
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+
 .menu-title{
     line-height: 0px;
     padding: 0;
